@@ -1,0 +1,32 @@
+Depends on users
+class
+objects
+Encapusulation
+Inheritance
+polymorphism
+Abstraction
+
+
+Here's the same OOP concepts, reframed with web/mobile app examples — since that's what's most relatable and commonly asked in interviews for SDE/fresher roles:
+1. Class
+Blueprint for an app entity — no memory until an object is created.
+Example: A User class in a web app defines fields (username, email, password) and methods (login(), logout()) — it's the template, not an actual user account yet.
+2. Object
+An actual instance created from the class, holding real data.
+Example: When you sign up on Amazon, user1 = User("abilash@gmail.com", "Abilash") is created — a real object stored in the database.
+3. Encapsulation
+Hiding internal data/logic and exposing only necessary methods.
+Example (Web — Banking App): In an online banking dashboard, your account balance and transaction history are private fields. You interact only through methods like checkBalance(), transferMoney() — the actual database queries and validation logic stay hidden.
+Example (Mobile — WhatsApp): Your chat data is encrypted and stored internally. You only interact via sendMessage(), deleteChat() — you never directly access WhatsApp's internal storage or encryption keys.
+4. Inheritance
+Child class reuses parent class's properties/methods.
+Example (Web — E-commerce): A base User class has common fields (name, email, address). Customer and Seller classes inherit from User — Customer adds cart, wishlist; Seller adds productListings, salesReport.
+Example (Mobile — Food Delivery App like Swiggy): A base Account class is inherited by CustomerAccount and DeliveryPartnerAccount — both share login/profile features, but each has role-specific screens and permissions.
+5. Polymorphism
+Same method name, different behavior based on the calling object.
+Example (Web — Notification System): A sendNotification() method behaves differently for EmailNotification, SMSNotification, and PushNotification classes — same method call, different delivery mechanism.
+Example (Mobile — Payment Apps like PhonePe/GPay): A pay() method processes differently for UPIPayment, CardPayment, and WalletPayment objects — interface stays the same, internal logic differs.
+6. Abstraction
+Hiding complex backend logic, exposing only a simple interface.
+Example (Web — Login Page): When you click "Login with Google," you don't see OAuth token generation, session handling, or server verification — just a button and a redirect.
+Example (Mobile — Uber/Ola App): You tap "Book Ride" — the app hides driver-matching algorithms, GPS route calculation, and fare estimation logic. You just see the final ride confirmation.
