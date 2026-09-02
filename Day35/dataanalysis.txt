@@ -1,0 +1,21 @@
+Data Analysis — Summary
+
+Data Analysis is the process of examining raw data to find useful information, patterns, and insights that help in better decision-making.
+
+There are 4 main types of analysis:
+
+Descriptive Analysis → What happened?
+Example: Find total sales, average sales, highest sales.
+Diagnostic Analysis → Why did it happen?
+Example: Find why sales decreased.
+Predictive Analysis → What might happen?
+Example: Predict next month's sales using previous data.
+Prescriptive Analysis → What should we do?
+Example: Recommend giving weekend discounts to increase sales.
+Simple flow
+
+Raw Data → Clean Data → Analyze → Find Insights → Make Decisions
+
+In simple words:
+
+Data Analysis helps us convert raw data into meaningful information so that we can understand the past, identify problems, predict the future, and take better actions.
